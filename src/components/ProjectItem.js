@@ -3,7 +3,7 @@ import React from "react";
 function ProjectItem({ name, about, technologies }) {
   //console.log(technologies);
   const tech = technologies.map((technology) => {
-    console.log(technology);
+    //console.log(technology);
     return (
       <span key={technology}>{technology}</span>
     );
